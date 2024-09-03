@@ -10,7 +10,7 @@ const SearchParams = () => {
   const [requestParams, setRequestParams] = useState({
     animal: "",
     location: "",
-    breeds: "",
+    breed: "",
   });
 
   const [animal, setAnimal] = useState("");
